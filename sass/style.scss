@@ -19,8 +19,12 @@ body{
 header{
 	width: 100vw;
 	background-image: url(http://lorempixel.com/g/1600/500/city);
-	 @media (max-width: 800px){
+	
+ 	@media (min-width: 800px){
 			background-image: url(http://lorempixel.com/1600/400/city);
+	 } 
+	 @media (max-width: 800px){
+			background-image: url(http://lorempixel.com/1000/400/city);
 	 } 
  	 @media (max-width: 600px){
 			background-image: url(http://lorempixel.com/g/800/300/city);
