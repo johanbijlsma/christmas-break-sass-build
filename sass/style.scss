@@ -57,7 +57,9 @@ header{
 	// background: lighten($primary-color, 10);
 	padding: $global-padding3x;
 	display: flex;
+		display: webkit-flex;
 	justify-content: space-between;
+		webkit-justify-content: space-between;
 }
 
 .first-row{

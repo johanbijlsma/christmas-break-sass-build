@@ -63,58 +63,60 @@ header .tagline {
   background: linear-gradient(rgba(255, 255, 255, 0.75), #ccc);
   padding: calc(0.5em *3);
   display: flex;
+  display: webkit-flex;
   justify-content: space-between;
+  webkit-justify-content: space-between;
 }
 
-/* line 63, ../sass/style.scss */
+/* line 65, ../sass/style.scss */
 .first-row {
   margin-top: 260px;
 }
 @media (max-width: 800px) {
-  /* line 63, ../sass/style.scss */
+  /* line 65, ../sass/style.scss */
   .first-row {
     display: block;
   }
-  /* line 68, ../sass/style.scss */
+  /* line 70, ../sass/style.scss */
   .first-row .main {
     width: 100%;
     margin-bottom: 1em;
   }
-  /* line 73, ../sass/style.scss */
+  /* line 75, ../sass/style.scss */
   .first-row .sidebar {
     width: 100%;
     margin-bottom: 1em;
   }
 }
 
-/* line 83, ../sass/style.scss */
+/* line 85, ../sass/style.scss */
 .second-row {
   background: linear-gradient(#0051df, rgba(255, 255, 255, 0.75));
   min-height: 20em;
 }
 @media (max-width: 800px) {
-  /* line 83, ../sass/style.scss */
+  /* line 85, ../sass/style.scss */
   .second-row {
     display: block;
   }
-  /* line 89, ../sass/style.scss */
+  /* line 91, ../sass/style.scss */
   .second-row .generic-1 {
     width: 100%;
     margin-bottom: 1em;
   }
-  /* line 94, ../sass/style.scss */
+  /* line 96, ../sass/style.scss */
   .second-row .generic-2 {
     width: 100%;
     margin-bottom: 1em;
   }
-  /* line 99, ../sass/style.scss */
+  /* line 101, ../sass/style.scss */
   .second-row .tweet {
     width: 100%;
     margin-bottom: 1em;
   }
 }
 
-/* line 106, ../sass/style.scss */
+/* line 108, ../sass/style.scss */
 .block, .main, .sidebar, .generic-1, .generic-2, .tweet {
   padding: 0.5em;
   border: #b3b3b3 1px solid;
@@ -124,7 +126,7 @@ header .tagline {
 }
 
 @media (min-width: 800px) {
-  /* line 117, ../sass/style.scss */
+  /* line 119, ../sass/style.scss */
   .main {
     max-width: 64.5%;
     display: block;
@@ -132,7 +134,7 @@ header .tagline {
 }
 
 @media (min-width: 800px) {
-  /* line 126, ../sass/style.scss */
+  /* line 128, ../sass/style.scss */
   .sidebar {
     max-width: 30%;
     display: block;
@@ -140,25 +142,25 @@ header .tagline {
 }
 
 @media (min-width: 800px) {
-  /* line 136, ../sass/style.scss */
+  /* line 138, ../sass/style.scss */
   .generic-1, .generic-2, .tweet {
     max-width: 30%;
   }
 }
 
-/* line 142, ../sass/style.scss */
+/* line 144, ../sass/style.scss */
 header, h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
   color: #1C59C3;
   padding: 0;
 }
 
-/* line 148, ../sass/style.scss */
+/* line 150, ../sass/style.scss */
 h1 {
   font-size: 3em;
 }
 
-/* line 153, ../sass/style.scss */
+/* line 155, ../sass/style.scss */
 footer {
   min-height: 3em;
   background: #999;
@@ -166,7 +168,7 @@ footer {
   text-align: center;
   padding: 0;
 }
-/* line 159, ../sass/style.scss */
+/* line 161, ../sass/style.scss */
 footer a {
   color: #fff;
   padding: 10px auto;
