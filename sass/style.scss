@@ -56,8 +56,10 @@ header{
 	background:linear-gradient($transwhite, $primary-color);
 	// background: lighten($primary-color, 10);
 	padding: $global-padding3x;
+	display: webkit-flex;
 	display: flex;
-		display: webkit-flex;
+	webkit-justify-content: space-between;
+
 	justify-content: space-between;
 		webkit-justify-content: space-between;
 }
